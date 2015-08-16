@@ -1,5 +1,6 @@
 # NestedToolbarTutorial
 Demo of nested toolbar in Android application
+
 <img src="http://alexzh.com/wp-content/uploads/2015/08/MAIN_SCREEN.png" width="483px" height="323px" />
 
 Demo:
