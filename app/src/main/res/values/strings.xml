@@ -1,0 +1,494 @@
+<resources>
+    <string name="app_name">NestedToolbar Demo</string>
+
+    <string name="action_search">Search</string>
+    <string name="tutorial_name">Card toolbar (Nested toolbar) in Android application</string>
+
+    <string name="afghanistan">Afghanistan</string>
+    <string name="albania">Albania</string>
+    <string name="algeria">Algeria</string>
+    <string name="american_samoa">American Samoa</string>
+    <string name="andorra">Andorra</string>
+    <string name="angola">Angola</string>
+    <string name="anguilla">Anguilla</string>
+    <string name="antarctica">Antarctica</string>
+    <string name="antigua_and_barbuda">Antigua and Barbuda</string>
+    <string name="argentina">Argentina</string>
+    <string name="armenia">Armenia</string>
+    <string name="aruba">Aruba</string>
+    <string name="australia">Australia</string>
+    <string name="austria">Austria</string>
+    <string name="azerbaijan">Azerbaijan</string>
+    <string name="bahamas">Bahamas</string>
+    <string name="bahrain">Bahrain</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="barbados">Barbados</string>
+    <string name="belarus">Belarus</string>
+    <string name="belgium">Belgium</string>
+    <string name="belize">Belize</string>
+    <string name="benin">Benin</string>
+    <string name="bermuda">Bermuda</string>
+    <string name="bhutan">Bhutan</string>
+    <string name="bolivia">Bolivia</string>
+    <string name="bosnia_and_herzegovina">Bosnia and Herzegovina</string>
+    <string name="botswana">Botswana</string>
+    <string name="brazil">Brazil</string>
+    <string name="british_indian_ocean_territory">British Indian Ocean Territory</string>
+    <string name="british_virgin_islands">British Virgin Islands</string>
+    <string name="brunei">Brunei</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="burkina_faso">Burkina Faso</string>
+    <string name="burma_myanmar">Burma (Myanmar)</string>
+    <string name="burundi">Burundi</string>
+    <string name="cambodia">Cambodia</string>
+    <string name="cameroon">Cameroon</string>
+    <string name="canada">Canada</string>
+    <string name="cape_verde">Cape Verde</string>
+    <string name="cayman_islands">Cayman Islands</string>
+    <string name="central_african_republic">Central African Republic</string>
+    <string name="chad">Chad</string>
+    <string name="chile">Chile</string>
+    <string name="china">China</string>
+    <string name="christmas_island">Christmas Island</string>
+    <string name="cocos_keeling_islands">Cocos (Keeling) Islands</string>
+    <string name="colombia">Colombia</string>
+    <string name="comoros">Comoros</string>
+    <string name="cook_islands">Cook Islands</string>
+    <string name="costa_rica">Costa Rica</string>
+    <string name="croatia">Croatia</string>
+    <string name="cuba">Cuba</string>
+    <string name="cyprus">Cyprus</string>
+    <string name="czech_republic">Czech Republic</string>
+    <string name="democratic_republic_of_the_congo">Democratic Republic of the Congo</string>
+    <string name="denmark">Denmark</string>
+    <string name="djibouti">Djibouti</string>
+    <string name="dominica">Dominica</string>
+    <string name="dominican_republic">Dominican Republic</string>
+    <string name="ecuador">Ecuador</string>
+    <string name="egypt">Egypt</string>
+    <string name="el_salvador">El Salvador</string>
+    <string name="equatorial_guinea">Equatorial Guinea</string>
+    <string name="eritrea">Eritrea</string>
+    <string name="estonia">Estonia</string>
+    <string name="ethiopia">Ethiopia</string>
+    <string name="falkland_islands">Falkland Islands</string>
+    <string name="faroe_islands">Faroe Islands</string>
+    <string name="fiji">Fiji</string>
+    <string name="finland">Finland</string>
+    <string name="france">France</string>
+    <string name="french_polynesia">French Polynesia</string>
+    <string name="gabon">Gabon</string>
+    <string name="gambia">Gambia</string>
+    <string name="gaza_strip">Gaza Strip</string>
+    <string name="georgia">Georgia</string>
+    <string name="germany">Germany</string>
+    <string name="ghana">Ghana</string>
+    <string name="gibraltar">Gibraltar</string>
+    <string name="greece">Greece</string>
+    <string name="greenland">Greenland</string>
+    <string name="grenada">Grenada</string>
+    <string name="guam">Guam</string>
+    <string name="guatemala">Guatemala</string>
+    <string name="guinea">Guinea</string>
+    <string name="guinea_bissau">Guinea-Bissau</string>
+    <string name="guyana">Guyana</string>
+    <string name="haiti">Haiti</string>
+    <string name="holy_see_vatican_city">Holy See (Vatican City)</string>
+    <string name="honduras">Honduras</string>
+    <string name="hong_kong">Hong Kong</string>
+    <string name="hungary">Hungary</string>
+    <string name="iceland">Iceland</string>
+    <string name="india">India</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="iran">Iran</string>
+    <string name="iraq">Iraq</string>
+    <string name="ireland">Ireland</string>
+    <string name="isle_of_man">Isle of Man</string>
+    <string name="israel">Israel</string>
+    <string name="italy">Italy</string>
+    <string name="ivory_coast">Ivory Coast</string>
+    <string name="jamaica">Jamaica</string>
+    <string name="japan">Japan</string>
+    <string name="jersey">Jersey</string>
+    <string name="jordan">Jordan</string>
+    <string name="kazakhstan">Kazakhstan</string>
+    <string name="kenya">Kenya</string>
+    <string name="kiribati">Kiribati</string>
+    <string name="kosovo">Kosovo</string>
+    <string name="kuwait">Kuwait</string>
+    <string name="kyrgyzstan">Kyrgyzstan</string>
+    <string name="laos">Laos</string>
+    <string name="latvia">Latvia</string>
+    <string name="lebanon">Lebanon</string>
+    <string name="lesotho">Lesotho</string>
+    <string name="liberia">Liberia</string>
+    <string name="libya">Libya</string>
+    <string name="liechtenstein">Liechtenstein</string>
+    <string name="lithuania">Lithuania</string>
+    <string name="luxembourg">Luxembourg</string>
+    <string name="macau">Macau</string>
+    <string name="macedonia">Macedonia</string>
+    <string name="madagascar">Madagascar</string>
+    <string name="malawi">Malawi</string>
+    <string name="malaysia">Malaysia</string>
+    <string name="maldives">Maldives</string>
+    <string name="mali">Mali</string>
+    <string name="malta">Malta</string>
+    <string name="marshall_islands">Marshall Islands</string>
+    <string name="mauritania">Mauritania</string>
+    <string name="mauritius">Mauritius</string>
+    <string name="mayotte">Mayotte</string>
+    <string name="mexico">Mexico</string>
+    <string name="micronesia">Micronesia</string>
+    <string name="moldova">Moldova</string>
+    <string name="monaco">Monaco</string>
+    <string name="mongolia">Mongolia</string>
+    <string name="montenegro">Montenegro</string>
+    <string name="montserrat">Montserrat</string>
+    <string name="morocco">Morocco</string>
+    <string name="mozambique">Mozambique</string>
+    <string name="namibia">Namibia</string>
+    <string name="nauru">Nauru</string>
+    <string name="nepal">Nepal</string>
+    <string name="netherlands">Netherlands</string>
+    <string name="netherlands_antilles">Netherlands Antilles</string>
+    <string name="new_caledonia">New Caledonia</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="nicaragua">Nicaragua</string>
+    <string name="niger">Niger</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="niue">Niue</string>
+    <string name="norfolk_island">Norfolk Island</string>
+    <string name="north_korea">North Korea</string>
+    <string name="northern_mariana_islands">Northern Mariana Islands</string>
+    <string name="norway">Norway</string>
+    <string name="oman">Oman</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="palau">Palau</string>
+    <string name="panama">Panama</string>
+    <string name="papua_new_guinea">Papua New Guinea</string>
+    <string name="paraguay">Paraguay</string>
+    <string name="peru">Peru</string>
+    <string name="philippines">Philippines</string>
+    <string name="pitcairn_islands">Pitcairn Islands</string>
+    <string name="poland">Poland</string>
+    <string name="portugal">Portugal</string>
+    <string name="puerto_rico">Puerto Rico</string>
+    <string name="qatar">Qatar</string>
+    <string name="republic_of_the_congo">Republic of the Congo</string>
+    <string name="romania">Romania</string>
+    <string name="russia">Russia</string>
+    <string name="rwanda">Rwanda</string>
+    <string name="saint_barthelemy">Saint Barthelemy</string>
+    <string name="saint_helena">Saint Helena</string>
+    <string name="saint_kitts_and_nevis">Saint Kitts and Nevis</string>
+    <string name="saint_lucia">Saint Lucia</string>
+    <string name="saint_martin">Saint Martin</string>
+    <string name="saint_pierre_and_miquelon">Saint Pierre and Miquelon</string>
+    <string name="saint_vincent_and_the_grenadines">Saint Vincent and the Grenadines</string>
+    <string name="samoa">Samoa</string>
+    <string name="san_marino">San Marino</string>
+    <string name="sao_tome_and_principe">Sao Tome and Principe</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="senegal">Senegal</string>
+    <string name="serbia">Serbia</string>
+    <string name="seychelles">Seychelles</string>
+    <string name="sierra_leone">Sierra Leone</string>
+    <string name="singapore">Singapore</string>
+    <string name="slovakia">Slovakia</string>
+    <string name="slovenia">Slovenia</string>
+    <string name="solomon_islands">Solomon Islands</string>
+    <string name="somalia">Somalia</string>
+    <string name="south_africa">South Africa</string>
+    <string name="south_korea">South Korea</string>
+    <string name="spain">Spain</string>
+    <string name="sri_lanka">Sri Lanka</string>
+    <string name="sudan">Sudan</string>
+    <string name="suriname">Suriname</string>
+    <string name="swaziland">Swaziland</string>
+    <string name="sweden">Sweden</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="syria">Syria</string>
+    <string name="taiwan">Taiwan</string>
+    <string name="tajikistan">Tajikistan</string>
+    <string name="tanzania">Tanzania</string>
+    <string name="thailand">Thailand</string>
+    <string name="timor_leste">Timor-Leste</string>
+    <string name="togo">Togo</string>
+    <string name="tokelau">Tokelau</string>
+    <string name="tonga">Tonga</string>
+    <string name="trinidad_and_tobago">Trinidad and Tobago</string>
+    <string name="tunisia">Tunisia</string>
+    <string name="turkey">Turkey</string>
+    <string name="turkmenistan">Turkmenistan</string>
+    <string name="turks_and_caicos_islands">Turks and Caicos Islands</string>
+    <string name="tuvalu">Tuvalu</string>
+    <string name="uganda">Uganda</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="united_arab_emirates">United Arab Emirates</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="united_states">United States</string>
+    <string name="uruguay">Uruguay</string>
+    <string name="us_virgin_islands">US Virgin Islands</string>
+    <string name="uzbekistan">Uzbekistan</string>
+    <string name="vanuatu">Vanuatu</string>
+    <string name="venezuela">Venezuela</string>
+    <string name="vietnam">Vietnam</string>
+    <string name="wallis_and_futuna">Wallis and Futuna</string>
+    <string name="west_bank">West Bank</string>
+    <string name="yemen">Yemen</string>
+    <string name="zambia">Zambia</string>
+    <string name="zimbabwe">Zimbabwe</string>
+
+    <string-array name="countries">
+        <item>@string/afghanistan</item>
+        <item>@string/albania</item>
+        <item>@string/algeria</item>
+        <item>@string/american_samoa</item>
+        <item>@string/andorra</item>
+        <item>@string/angola</item>
+        <item>@string/anguilla</item>
+        <item>@string/antarctica</item>
+        <item>@string/antigua_and_barbuda</item>
+        <item>@string/argentina</item>
+        <item>@string/armenia</item>
+        <item>@string/aruba</item>
+        <item>@string/australia</item>
+        <item>@string/austria</item>
+        <item>@string/azerbaijan</item>
+        <item>@string/bahamas</item>
+        <item>@string/bahrain</item>
+        <item>@string/bangladesh</item>
+        <item>@string/barbados</item>
+        <item>@string/belarus</item>
+        <item>@string/belgium</item>
+        <item>@string/belize</item>
+        <item>@string/benin</item>
+        <item>@string/bermuda</item>
+        <item>@string/bhutan</item>
+        <item>@string/bolivia</item>
+        <item>@string/bosnia_and_herzegovina</item>
+        <item>@string/botswana</item>
+        <item>@string/brazil</item>
+        <item>@string/british_indian_ocean_territory</item>
+        <item>@string/british_virgin_islands</item>
+        <item>@string/brunei</item>
+        <item>@string/bulgaria</item>
+        <item>@string/burkina_faso</item>
+        <item>@string/burma_myanmar</item>
+        <item>@string/burundi</item>
+        <item>@string/cambodia</item>
+        <item>@string/cameroon</item>
+        <item>@string/canada</item>
+        <item>@string/cape_verde</item>
+        <item>@string/cayman_islands</item>
+        <item>@string/central_african_republic</item>
+        <item>@string/chad</item>
+        <item>@string/chile</item>
+        <item>@string/china</item>
+        <item>@string/christmas_island</item>
+        <item>@string/cocos_keeling_islands</item>
+        <item>@string/colombia</item>
+        <item>@string/comoros</item>
+        <item>@string/cook_islands</item>
+        <item>@string/costa_rica</item>
+        <item>@string/croatia</item>
+        <item>@string/cuba</item>
+        <item>@string/cyprus</item>
+        <item>@string/czech_republic</item>
+        <item>@string/democratic_republic_of_the_congo</item>
+        <item>@string/denmark</item>
+        <item>@string/djibouti</item>
+        <item>@string/dominica</item>
+        <item>@string/dominican_republic</item>
+        <item>@string/ecuador</item>
+        <item>@string/egypt</item>
+        <item>@string/el_salvador</item>
+        <item>@string/equatorial_guinea</item>
+        <item>@string/eritrea</item>
+        <item>@string/estonia</item>
+        <item>@string/ethiopia</item>
+        <item>@string/falkland_islands</item>
+        <item>@string/faroe_islands</item>
+        <item>@string/fiji</item>
+        <item>@string/finland</item>
+        <item>@string/france</item>
+        <item>@string/french_polynesia</item>
+        <item>@string/gabon</item>
+        <item>@string/gambia</item>
+        <item>@string/gaza_strip</item>
+        <item>@string/georgia</item>
+        <item>@string/germany</item>
+        <item>@string/ghana</item>
+        <item>@string/gibraltar</item>
+        <item>@string/greece</item>
+        <item>@string/greenland</item>
+        <item>@string/grenada</item>
+        <item>@string/guam</item>
+        <item>@string/guatemala</item>
+        <item>@string/guinea</item>
+        <item>@string/guinea_bissau</item>
+        <item>@string/guyana</item>
+        <item>@string/haiti</item>
+        <item>@string/holy_see_vatican_city</item>
+        <item>@string/honduras</item>
+        <item>@string/hong_kong</item>
+        <item>@string/hungary</item>
+        <item>@string/iceland</item>
+        <item>@string/india</item>
+        <item>@string/indonesia</item>
+        <item>@string/iran</item>
+        <item>@string/iraq</item>
+        <item>@string/ireland</item>
+        <item>@string/isle_of_man</item>
+        <item>@string/israel</item>
+        <item>@string/italy</item>
+        <item>@string/ivory_coast</item>
+        <item>@string/jamaica</item>
+        <item>@string/japan</item>
+        <item>@string/jersey</item>
+        <item>@string/jordan</item>
+        <item>@string/kazakhstan</item>
+        <item>@string/kenya</item>
+        <item>@string/kiribati</item>
+        <item>@string/kosovo</item>
+        <item>@string/kuwait</item>
+        <item>@string/kyrgyzstan</item>
+        <item>@string/laos</item>
+        <item>@string/latvia</item>
+        <item>@string/lebanon</item>
+        <item>@string/lesotho</item>
+        <item>@string/liberia</item>
+        <item>@string/libya</item>
+        <item>@string/liechtenstein</item>
+        <item>@string/lithuania</item>
+        <item>@string/luxembourg</item>
+        <item>@string/macau</item>
+        <item>@string/macedonia</item>
+        <item>@string/madagascar</item>
+        <item>@string/malawi</item>
+        <item>@string/malaysia</item>
+        <item>@string/maldives</item>
+        <item>@string/mali</item>
+        <item>@string/malta</item>
+        <item>@string/marshall_islands</item>
+        <item>@string/mauritania</item>
+        <item>@string/mauritius</item>
+        <item>@string/mayotte</item>
+        <item>@string/mexico</item>
+        <item>@string/micronesia</item>
+        <item>@string/moldova</item>
+        <item>@string/monaco</item>
+        <item>@string/mongolia</item>
+        <item>@string/montenegro</item>
+        <item>@string/montserrat</item>
+        <item>@string/morocco</item>
+        <item>@string/mozambique</item>
+        <item>@string/namibia</item>
+        <item>@string/nauru</item>
+        <item>@string/nepal</item>
+        <item>@string/netherlands</item>
+        <item>@string/netherlands_antilles</item>
+        <item>@string/new_caledonia</item>
+        <item>@string/new_zealand</item>
+        <item>@string/nicaragua</item>
+        <item>@string/niger</item>
+        <item>@string/nigeria</item>
+        <item>@string/niue</item>
+        <item>@string/norfolk_island</item>
+        <item>@string/north_korea</item>
+        <item>@string/northern_mariana_islands</item>
+        <item>@string/norway</item>
+        <item>@string/oman</item>
+        <item>@string/pakistan</item>
+        <item>@string/palau</item>
+        <item>@string/panama</item>
+        <item>@string/papua_new_guinea</item>
+        <item>@string/paraguay</item>
+        <item>@string/peru</item>
+        <item>@string/philippines</item>
+        <item>@string/pitcairn_islands</item>
+        <item>@string/poland</item>
+        <item>@string/portugal</item>
+        <item>@string/puerto_rico</item>
+        <item>@string/qatar</item>
+        <item>@string/republic_of_the_congo</item>
+        <item>@string/romania</item>
+        <item>@string/russia</item>
+        <item>@string/rwanda</item>
+        <item>@string/saint_barthelemy</item>
+        <item>@string/saint_helena</item>
+        <item>@string/saint_kitts_and_nevis</item>
+        <item>@string/saint_lucia</item>
+        <item>@string/saint_martin</item>
+        <item>@string/saint_pierre_and_miquelon</item>
+        <item>@string/saint_vincent_and_the_grenadines</item>
+        <item>@string/samoa</item>
+        <item>@string/san_marino</item>
+        <item>@string/sao_tome_and_principe</item>
+        <item>@string/saudi_arabia</item>
+        <item>@string/senegal</item>
+        <item>@string/serbia</item>
+        <item>@string/seychelles</item>
+        <item>@string/sierra_leone</item>
+        <item>@string/singapore</item>
+        <item>@string/slovakia</item>
+        <item>@string/slovenia</item>
+        <item>@string/solomon_islands</item>
+        <item>@string/somalia</item>
+        <item>@string/south_africa</item>
+        <item>@string/south_korea</item>
+        <item>@string/spain</item>
+        <item>@string/sri_lanka</item>
+        <item>@string/sudan</item>
+        <item>@string/suriname</item>
+        <item>@string/swaziland</item>
+        <item>@string/sweden</item>
+        <item>@string/switzerland</item>
+        <item>@string/syria</item>
+        <item>@string/taiwan</item>
+        <item>@string/tajikistan</item>
+        <item>@string/tanzania</item>
+        <item>@string/thailand</item>
+        <item>@string/timor_leste</item>
+        <item>@string/togo</item>
+        <item>@string/tokelau</item>
+        <item>@string/tonga</item>
+        <item>@string/trinidad_and_tobago</item>
+        <item>@string/tunisia</item>
+        <item>@string/turkey</item>
+        <item>@string/turkmenistan</item>
+        <item>@string/turks_and_caicos_islands</item>
+        <item>@string/tuvalu</item>
+        <item>@string/uganda</item>
+        <item>@string/ukraine</item>
+        <item>@string/united_arab_emirates</item>
+        <item>@string/united_kingdom</item>
+        <item>@string/united_states</item>
+        <item>@string/uruguay</item>
+        <item>@string/us_virgin_islands</item>
+        <item>@string/uzbekistan</item>
+        <item>@string/vanuatu</item>
+        <item>@string/venezuela</item>
+        <item>@string/vietnam</item>
+        <item>@string/wallis_and_futuna</item>
+        <item>@string/west_bank</item>
+        <item>@string/yemen</item>
+        <item>@string/zambia</item>
+        <item>@string/zimbabwe</item>
+    </string-array>
+
+    <string name="label_more_articles">Read more articles</string>
+    <string name="label_source_code">Source code</string>
+    <string name="label_follow_me_on_google_plus">Follow me on Google+</string>
+    <string name="label_follow_me_on_twitter">Follow me on Twitter</string>
+    <string name="label_follow_me_on_linked_in">Follow me on LinkedIn</string>
+    <string name="label_join_to_facebook_community">Join to facebook community</string>
+
+    <string name="link_more_articles">http://alexzh.com</string>
+    <string name="link_to_github">https://github.com/AlexZhukovich</string>
+    <string name="link_follow_me_google_plus">https://plus.google.com/u/0/107585683427004449259/</string>
+    <string name="link_follow_me_google_twitter">https://twitter.com/Alex_Zhukovich</string>
+    <string name="link_follow_me_google_linked_in">https://linkedin.com/pub/alex-zhukovich/76/78a/b05</string>
+    <string name="link_join_to_facebook_community">https://www.facebook.com/mobiledevelopment.alexzh</string>
+</resources>
